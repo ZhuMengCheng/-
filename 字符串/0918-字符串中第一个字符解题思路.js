@@ -31,4 +31,6 @@ var firstUniqChar = function (s) {
     }
     return -1
 };
-console.log(firstUniqChar('ledosigolcde'))
+// 时间复杂度:O(N)
+// 空间复杂度:O(N)
+console.log(firstUniqChar('ledosigolcde')) // 4
