@@ -6,7 +6,6 @@
  */
 var isAnagram = function (s, t) {
     let firstMap = new Map();
-    let secondMap = new Map();
     for (let key in s) {
         let count = 0
         if (firstMap.has(s[key])) {
