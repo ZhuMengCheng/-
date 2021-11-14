@@ -9,7 +9,7 @@ var minCostClimbingStairs = function (cost) {
     dp[0] = dp[1] = 0;
     let first = 0;
     let second = 0;
-    // 每1到两位计算最小值.
+    // 每1到两位计算最小值
     for (let i = 2; i <= cost.length; i++) {
         const tempFirst = dp[i - 1] + cost[i - 1]
         const tempSecond = dp[i - 2] + cost[i - 2];
